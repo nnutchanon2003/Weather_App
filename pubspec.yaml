@@ -1,0 +1,43 @@
+name: weather_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  dio: ^5.4.3+1
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  geolocator: ^12.0.0
+  jiffy: ^6.3.1
+  http: ^0.13.3
+
+  cloud_firestore: ^4.14.0
+  firebase_core: ^2.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # เพิ่ม assets ที่เกี่ยวข้อง
+  assets:
+    - assets/icons/01d.png
+    - assets/icons/02d.png
+    - assets/icons/03d.png
+    - assets/icons/04d.png
+    - assets/icons/6.png
+    - assets/icons/7.png
+    - assets/icons/09d.png
+    - assets/icons/10d.png
+    - assets/icons/11d.png
+    - assets/icons/13d.png
+    - assets/icons/39.png
+    - assets/icons/50d.png
+    
